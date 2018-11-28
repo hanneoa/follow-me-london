@@ -1,4 +1,69 @@
-h1 {
-  color: blue;
+.nav{
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: 10px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .title {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+    color: red;
+    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+    width: 100%;
+  }
+
+p {
   text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  font-size: 20px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.products {
+    text-align: center;
+}
+
+.testimonials {
+    text-align: center;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: red;
+    text-align: center;
 }
