@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Rock+Salt" rel="stylesheet">
     <link href='css/bootstrap.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   </head>
 
 <body>
@@ -35,18 +36,55 @@
 <h2>Our Tours</h2>
 
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Tours" data-whatever="Classic Course">Open to preview Classic Course</button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Tours" data-whatever="Traipse the Thames">Open to preview Traipse the Thames</button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Tours" data-whatever="Gape at Graffiti">Open to preview Gape at Graffiti</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Tour1" data-whatever="Classic Course">Open to preview Classic Course</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Tour2" data-whatever="Traipse the Thames">Open to preview Traipse the Thames</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Tour3" data-whatever="Gape at Graffiti">Open to preview Gape at Graffiti</button>
 
-<div class="modal fade" id="Tours" tabindex="-1" role="dialog" aria-labelledby="ToursLabel">
+<div class="modal fade" id="Tour1" tabindex="-1" role="dialog" aria-labelledby="ToursLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="ToursLabel">Information About the Tour</h4>
+
+          <div class="modal-body">
+            <p> <img src="images/classic.jpg" style="width:100%;"> </p>
+          </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Add to cart</button>
+              <button type="button" class="btn btn secondary" data-dismiss="modal">Close</button>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Tour2" tabindex="-1" role="dialog" aria-labelledby="ToursLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="ToursLabel">Information About the Tour</h4>
           <div class="modal-body">
-            <p> The description and pictures go here. </p>
+            <p> <img src="images/Thames.jpg"> </p>
+          </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Add to cart</button>
+              <button type="button" class="btn btn secondary" data-dismiss="modal">Close</button>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Tour3" tabindex="-1" role="dialog" aria-labelledby="ToursLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="ToursLabel">Information About the Tour</h4>
+          <div class="modal-body">
+            <p> <img src="images/Graffiti.jpg"> </p>
           </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary">Add to cart</button>
@@ -59,7 +97,7 @@
 
 <script>
 
-$('#Tours').on('show.bs.modal', function (event) {
+$('#Tour1''Tour2''Tour3').on('show.bs.modal', function (event) {
   var button = $(event.relatedTarget) // Button that triggered the modal
   var recipient = button.data('whatever') // Extract info from data-* attributes
   // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
