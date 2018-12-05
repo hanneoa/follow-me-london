@@ -17,7 +17,7 @@
     padding: 10px;
 }
 
-.container {
+.mycontainer {
     position: relative;
     text-align: center;
     color: white;
@@ -51,6 +51,7 @@ h2 {
 .column {
     float: left;
     width: 33.33%;
+    padding: 30px;
 }
 
 .products {
