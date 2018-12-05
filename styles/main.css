@@ -21,6 +21,7 @@
     position: relative;
     text-align: center;
     color: white;
+    margin: 0 auto;
   }
 
   .title {
@@ -35,7 +36,7 @@
     width: 100%;
   }
 
-p {
+.intro {
   text-align: center;
   font-family: 'Comfortaa', cursive;
   font-size: 20px;
