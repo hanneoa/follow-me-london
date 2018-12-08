@@ -72,3 +72,11 @@ h2 {
     font-family: 'Comfortaa', cursive;
     text-align: center;
 }
+
+.modal {
+    /*inside of modal*/
+}
+
+#btn btn-primary {
+    color: green;
+}
