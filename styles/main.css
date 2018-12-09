@@ -77,6 +77,10 @@ h2 {
     /*inside of modal*/
 }
 
-#btn btn-primary {
-    color: green;
+.btn-primary {
+
+}
+
+.btn-group-justified {
+  
 }
