@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Raleway', sans-serif;
     color: #00303F;
     font-size: 20px;
     opacity: 50%;
@@ -22,9 +22,7 @@
 
 .mycontainer {
     position: relative;
-    text-align: center;
-    color: white;
-    margin: 0 auto;
+    width: 100%;
   }
 
   .title {
@@ -34,46 +32,50 @@
     transform: translate(-50%, 0%);
     text-align: center;
     color: red;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Raleway', sans-serif;
     font-size: 40px;
     width: 100%;
   }
 
 .intro {
   text-align: center;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
 }
 
 h2 {
   text-align: center;
-  font-family: 'Rock Salt', cursive;
-  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
 }
 
 .testcolumn {
     float: left;
     width: 33.33%;
     padding: 30px;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
 .products {
     text-align: center;
 }
 
-.testimonials {
-    text-align: center;
+.line1 {
+  background-color: #cfc;
+  border: 1px solid #7A9D96;
+}
 }
 
-.footer {
-    left: 0;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    color: green;
-    font-family: 'Comfortaa', cursive;
+.testimonials {
     text-align: center;
+    background-color: #cfc;
+    border: 1px solid green;
 }
 
 .column1 {
@@ -90,12 +92,12 @@ h2 {
 }
 
 .modal {
-  font-family: 'Comfortaa';
+  font-family: 'Raleway', sans-serif;
     /*inside of modal*/
 }
 
 .btn-primary {
-  font-family: 'Comfortaa', bold;
+  font-family: 'Raleway', sans-serif; bold;
   color: #00303F;
   padding: 30px;
   background-color: #7A9D96;
@@ -108,4 +110,18 @@ h2 {
 
 .btn-group {
   padding: 30px;
+}
+
+.blank {
+  color: red;
+}
+
+.footee {
+  text-align: center;
+  background-color: #00303F;
+  color: #CAE4DB
+}
+
+.tourdetails {
+  text-align: center;
 }
