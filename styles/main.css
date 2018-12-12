@@ -73,14 +73,33 @@ h2 {
     text-align: center;
 }
 
+.column1 {
+    float: left;
+    width: 33.3%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.photos1 {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
 .modal {
+  font-family: 'Comfortaa';
     /*inside of modal*/
 }
 
 .btn-primary {
+  font-family: 'Comfortaa', bold;
 
 }
 
-.btn-group-justified {
-  
+.btn btn-primary {
+  font-family: 'Comfortaa';
+}
+
+.btn-group {
+  padding: 30px;
 }
