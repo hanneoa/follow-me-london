@@ -3,6 +3,8 @@
 
   <head>
     <title>Explore London!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -12,22 +14,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   </head>
 
+<header>
+
+  <div class=nav>
+    <ul>
+      <li><a href="default.asp">Home</a></li>
+      <li><a target="_blank" rel="noopener noreferrer" href="Tour1.html">Classic Course</a></li>
+      <li><a target="_blank" rel="noopener noreferrer" href="Tour2.html">Traipse the Thames</a></li>
+      <li><a target="_blank" rel="noopener noreferrer" href="Tour3.html">Gape at Grafitti</a></li>
+      <li><a target="_blank" rel="noopener noreferrer" href="Checkout.html">Check Out</a></li>
+    </ul>
+  </div>
+
+  <div class="container mycontainer">
+    <img src="images/banner.jpg" alt="mainbanner" class="img-rounded" style="width:100%;">
+    <div class="title">Follow Me: London!</div>
+  </div>
+
+</header>
+
+<br>
+
 <body>
-
-<div class=nav>
-  <ul>
-    <li><a href="default.asp">Home</a></li>
-    <li><a href="Tour1.html">Classic Course</a></li>
-    <li><a href="Tour2.html">Traipse the Thames</a></li>
-    <li><a href="Tour3.html">Gape at Grafitti</a></li>
-    <li><a href="Checkout.html">Check Out</a></li>
-  </ul>
-</div>
-
-<div class="container mycontainer">
-  <img src="images/banner.jpg" alt="mainbanner" style="width:100%;">
-  <div class="title">Follow Me: London!</div>
-</div>
 
 <div class="intro">
 <p>Welcome to Follow Me: London! A premier tour group offering specialized tours of the most interesting highlights of London! Our specialized tour are all London born and breed, and will provide you with unique insight to the city. What are you waiting for? Follow me!</p>
@@ -35,10 +43,34 @@
 
 <h2>Our Tours</h2>
 
+<br>
+<br>
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Tour1" data-whatever="Classic Course">Open to preview Classic Course</button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Tour2" data-whatever="Traipse the Thames">Open to preview Traipse the Thames</button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Tour3" data-whatever="Gape at Graffiti">Open to preview Gape at Graffiti</button>
+<div class="photos1">
+
+  <div class="column1">
+    <img src="images/meetingpoint.jpg"  style="width: 100%">
+  </div>
+  <div class="column1">
+    <img src="images/bridge.jpg"  style="width: 100%">
+  </div>
+  <div class="column1">
+    <img src="images/camden.jpeg" style="width: 100%">
+  </div>
+
+</div>
+
+<div class="btn-group btn-group-justified">
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Tour1" data-whatever="Classic Course">Open to preview Classic Course</button>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Tour2" data-whatever="Traipse the Thames">Open to preview Traipse the Thames</button>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Tour3" data-whatever="Gape at Graffiti">Open to preview Gape at Graffiti</button>
+  </div>
+</div>
 
 <div class="modal fade" id="Tour1" tabindex="-1" role="dialog" aria-labelledby="ToursLabel">
   <div class="modal-dialog" role="document">
@@ -46,9 +78,15 @@
       <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="ToursLabel">Information About the Tour</h4>
-
           <div class="modal-body">
-            <p> <img src="images/classic.jpg" style="width:100%;"> </p>
+            <div class="row">
+              <div class="col-md-6">
+                        <img src="images/classic.jpg" class="img-rounded" style="width:100%;">
+              </div>
+                    <div class="col-md-6">
+                      <p> The classic tour takes you on a memorable trip through the historic streets of London. Start our tour with a gathering by the Houses of Parliament to admire the bell tower that holds the Big Ben (Fun Fact the Big Ben is the bell not the tower!) and follow our friendly and amusing tour guides through the historic route. See the home of the British government at 10 Downing street followed by Trafalgar square to celebrate British bravery during the Napolean wars. Many more amusing sights and facts follow the tour and to find more information <a target="_blank" rel="noopener noreferrer" href="tour1.html"> click here </a>. Just add the item to cart, see through the process and we will take care of the rest. </p>
+                    </div>
+            </div>
           </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary">Add to cart</button>
@@ -66,7 +104,14 @@
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="ToursLabel">Information About the Tour</h4>
           <div class="modal-body">
-            <p> <img src="images/Thames.jpg"> </p>
+            <div class="row">
+              <div class="col-md-6">
+                          <img src="images/Thames.jpg" class="img-rounded" style="width:100%;">
+              </div>
+                      <div class="col-md-6">
+                        <p> Many more amusing sights and facts follow the tour and to find more information <a target="_blank" rel="noopener noreferrer" href="tour2.html"> click here </a>. Just add the item to cart, see through the process and we will take care of the rest. </p>
+                      </div>
+            </div>
           </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary">Add to cart</button>
@@ -84,10 +129,17 @@
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="ToursLabel">Information About the Tour</h4>
           <div class="modal-body">
-            <p> <img src="images/Graffiti.jpg"> </p>
+            <div class="row">
+              <div class="col-md-6">
+                        <img src="images/Graffiti.jpg" class="img-rounded" style="width:100%;">
+              </div>
+                    <div class="col-md-6">
+                      <p> Many more amusing sights and facts follow the tour and to find more information <a target="_blank" rel="noopener noreferrer" href="tour3.html"> click here </a>. Just add the item to cart, see through the process and we will take care of the rest. </p>
+                    </div>
+            </div>
           </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary"><a href="tour1.html">Add to cart</button>
+              <button type="button" class="btn btn-primary"><!--a href="tour1.html">-->Add to cart</button>
               <button type="button" class="btn btn secondary" data-dismiss="modal">Close</button>
             </div>
       </div>
@@ -109,11 +161,6 @@ $('#Tour1''Tour2''Tour3').on('show.bs.modal', function (event) {
 </script>
 
 
-<div class="products">
-  <div class="column">Classic Course</div>
-  <div class="column">Traipse the Thames</div>
-  <div class="column">Gape at Grafitti</div>
-</div>
 
 <br>
 <br>
@@ -123,19 +170,19 @@ $('#Tour1''Tour2''Tour3').on('show.bs.modal', function (event) {
 <div class="testimonials">
   <div class="testcolumn">
     <b>Audrey from Australia</b>
-      <img src="images/audrey.jpg" style="width:100%;"><br>
+      <img src="images/audrey.jpg" style="width:100%; max-width:500px;"><br>
         <br><p>Our family had so much fun on our tour and we learned a lot! For example, I will never go swimming in the Thames, it's so dirty!</p>
   </div>
 
   <div class="testcolumn">
     <b>Susie from South Africa</b>
-      <img src="images/susie.jpg" style="width:100%;"><br>
+      <img src="images/susie.jpg" style="width:100%; max-width:500px;"><br>
         <br><p>Our tour guide had an accent just like the main character of "My Fair Lady" - it was so charming!</p>
   </div>
 
   <div class="testcolumn">
     <b>Paul from Paraguay</b>
-      <img src="images/paul.jpg" style="width:100%;"><br>
+      <img src="images/paul.jpg" style="width:100%; max-width:500px;"><br>
         <br><p>We had scones and tea, I mean is there anything more British?</p>
   </div>
 </div>
@@ -154,5 +201,5 @@ $('#Tour1''Tour2''Tour3').on('show.bs.modal', function (event) {
 </div>
 
 
-
 </body>
+</html>
