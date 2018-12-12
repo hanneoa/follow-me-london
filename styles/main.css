@@ -93,6 +93,10 @@ h2 {
 
 .btn-primary {
   font-family: 'Comfortaa', bold;
+  color: #00303F;
+  padding: 30px;
+  background-color: #7A9D96;
+  font-size: 15px;
 }
 
 .btn btn-primary {
