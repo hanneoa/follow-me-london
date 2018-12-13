@@ -125,3 +125,10 @@ h2 {
 .tourdetails {
   text-align: center;
 }
+
+.checkout {
+  border:2px;
+  border-style:solid;
+  border-color:#DCAE1D;
+  padding: 0.2em;
+}
